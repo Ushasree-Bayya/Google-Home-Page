@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Section One CSS */
+
+.one{
+    padding: 2rem;
+    margin-top: -4rem;
+}
+
+.one .left .stockgen{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.one .left .stockgen img{
+    height: 1.5rem;
+}
+
+.one .left .stockgen h3{
+    margin-left: 0.5rem;
+    color: #a35693;
+}
+
+.one .left h1{
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    color: #a35693;
+}
+
+.one .left h5{
+    margin-top: 3vh;
+    font-weight: lighter;
+}
+
+.one .left h4{
+    margin-top: 2vh;
+    color: #a35693;
+}
+
+.one .left .times ul{
+    display: flex;
+    list-style: none;
+    margin-top: 2vh;
+    color: #a35693;
+}
+
+.one .left .times ul li{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.one .left .times ul li p{
+    margin-right: 2rem;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.one .right{
+    position: relative;
+    margin-top: 5vh;
+}
+
+.one .right img{
+    width: 100%;
+    height: auto;
+}
+
+.one .right .background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 150%;
+}
+
+.one .right .foreground{
+    height: 15rem;
+    width: 75%;
+    margin-left: 8vh;
+    margin-top: 5vh;
+    border-radius: 3rem;
+}
+
+/* Section Two CSS */
+
+.two{
+    padding: 2rem;
+}
+
+.two h1{
+    font-size: 1.5rem;
+    color: #a35693;
+    align-items: center;
+    margin-top: -2rem;
+}
+
+.two .images .image{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: 30px;
+    background: #f7f5e9;
+}
+
+.two .images .image img{
+    height: 10rem;
+}
+
+.two .images .image h2{
+    font-size: 1rem;
+    color: #a35693;
+}
+
+.two .bottom img{
+    height: auto;
+    width: 100%;
+    margin-top: -4rem;
+}
+
+/* Section Three CSS */
+
+.three{
+    padding: 2rem;
+}
+
+.three h1{
+    color: #a35693;
+    font-size: 2rem;
+}
+
+.three .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.three .details .detail{
+    border-radius: 16px;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    background: #f7f5e9;
+}
+
+.three .details img{
+    height: 15rem;
+    width: 13rem;
+    border-radius: 20px;
+}
+
+.three .details .detail .nature{
+    height: 14rem;
+    width: 13rem;
+}
+
+.three .details .detail .line p{
+    font-weight: bold;
+}
+
+.three .details .detail .line img{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 4rem;
+}
+
+.three .details .detail .line{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.three .details .detail .price{
+    display: flex;
+    margin-top: 0.8rem;
+    color: #a35693;
+}
+
+.three .details .detail .price button{
+    margin-left: 5rem;
+    padding: 0.2rem;
+    border-radius: 7px;
+    color: black;
+}
+
+.three .details .detail .price button:hover{
+    cursor: pointer;
+}
+
+.four{
+    padding: 2rem;
+}
+
+.four img{
+    width: 100%;
+    height: auto;
+}
+
+.four h2{
+    text-align: center;
+    margin-top: -4rem;
+}
+
+.four .collections{
+    margin-top: 2rem;
+}
+
+.four .collections img{
+    height: auto;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.four p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Section Five Css */
+
+.five{
+    padding: 2rem;
+}
+
+.five img{
+    height: auto;
+    width: 100%;
+}
+
+.five .info {
+    text-align: center;
+}
+
+.five .info .left h2{
+    font-size: 1.4rem;
+    color: #a35693;
+    margin-top: 1rem;
+}
+
+.five .info .left h4{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+
+.five .info img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.five .info .left h4{
+    margin-top: 1rem;
+}
+
+.five .info .right img{
+    margin-top: 2rem;
+}
+
+/* Section Six CSS */
+
+footer{
+    padding: 2rem;
+}
+
+footer img{
+    width: 100%;
+    height: auto;
+}
+
+footer .features .feature{
+    text-align: center;
+}
+
+footer .features .feature img{
+    width: 2rem;
+    height: 2rem;
+}
+
+footer .features .feature img{
+    margin-left: -10rem;
+}
+
+footer .features .feature h1{
+    margin-top: -2.8rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    color: #a35693;
+}
+
+footer .features .feature p{
+    margin-top: 1rem;
+    font-weight: lighter;
+}
+
+footer .features .feature ul img{
+    height: 2rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+footer .features .boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin: 0;
+}
+
+footer .features .boxes .feature{
+    margin-top: 1rem;
+}
+
+footer .features .boxes .feature ul{
+    list-style: none;
+}
+
+footer .features .boxes .feature ul li{
+    margin-top: 1rem;
+}
+
+footer .features .boxes .feature h1{
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer .features .boxes .feature ul p{
+    margin-top: -0.1rem;
+}
+
+footer .features .boxes .feature .input input{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #f7f5e9;
+    border-radius: 12px;
+    border: none;
+}
+
+footer .features .boxes .button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #a35693;
+    color: white;
+    border-radius: 12px;
+    cursor: zoom-out;
+}
+
+/* Media Queries Section */
+
+@media screen and (min-width: 700px){
+
+    .one .left .stockgen img{
+        height: 2rem;
+    }
+
+    .one .left .stockgen h3{
+        font-size: 1.5rem;
+    }
+
+    .one .left h1{
+       font-size: 2.5rem;
+       margin-top: 1rem;
+    }
+
+    .one .left h5{
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+
+    .one .left h4{
+        font-size: 1.5rem;
+    }
+
+    .one .left .times{
+        width: 60%;
+    }
+
+    .one .right .foreground{
+        height: 20rem;
+        width: 60%;
+        margin-left: 13rem;
+    }
+
+    .one .right .background{
+        height: auto;
+        width: 100%;
+    }
+
+    .two h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .two .images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .two .images .image h2{
+        color: #a35693;
+    }
+
+    .two .bottom img{
+        margin-top: -13rem;
+    }
+
+    .three h1{
+        text-align: center;
+    }
+
+    .three .details{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .three .details .detail img{
+        margin-left: 2.5rem;
+    }
+
+    .three .details .detail .nature {
+        height: 15rem;
+    }
+
+    .three .details .detail .line{
+        margin-left: 4rem;
+    }
+
+    .three .details .detail .price{
+        margin-left: 4rem;
+    }
+
+    .four h2{
+        margin-top: -9rem;
+        font-size: 3rem;
+    }
+
+    .four .collections{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .four .collections img{
+        width: 200%;
+        height: auto;
+        margin-left: -4.2rem;
+    }
+
+    .four p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .five .info{
+        display: flex;
+        margin: auto;
+        border: 1px solid #666;
+        padding: 0.2rem;
+        border-radius: 20px;
+        background: #f7f5e9;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .five .info .left{
+        margin-left: 2rem;
+    }
+
+    .five .info .right img{
+        height: 8rem;
+        width: 8rem;
+        margin-left: 5rem;
+    }
+
+    footer .features{
+        display: grid;
+        grid-template-columns: 33% auto;
+    }
+
+    footer .features .feature h1{
+        margin-left: 2.8rem;
+    }
+
+    footer .features .feature{
+        margin-top: -6rem;
+    }
+
+    footer .features .boxes{
+        margin-top: -6.5rem;
+    }
+
+
+   footer .features .boxes .feature{
+    margin-top: -0.6rem;
+   }
+
+   footer .features .boxes .feature ul h1{
+    font-size: 1.2rem;
+   }
+
+   footer .features .boxes .feature ul li{
+    margin-top: 1.3rem;
+   }
+
+   footer .features .boxes .feature .input input{
+    padding: 3rem;
+   }
+}
+
+/* Laptops and Other Devices */
+
+@media screen and (min-width: 1200px){
+    .one{
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+     
+    .one .left .stockgen img{
+        height: 2rem;
+    }
+
+    .one .left .stockgen h3{
+        font-size: 2rem;
+    }
+
+    .one .left h1{
+        font-size: 3rem;
+    }
+
+    .one .left h5{
+        font-size: 1.5rem;
+    }
+
+    .one .left h4{
+        font-size: 1.8rem;
+    }
+
+    .one .right{
+        margin-top: 4rem;
+    }
+
+    .one .right .foreground{
+        width: 75%;
+        height: 75%;
+        margin-left: 7rem;
+    }
+
+    .one .right .background{
+        width: 100%;
+        height: auto;
+    }
+
+    .two{
+        margin-top: 5rem;
+    }
+
+    .two h1{
+        font-size: 2.5rem;
+    }
+
+    .two .images{
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 3rem;
+    }
+
+    .two .bottom img{
+        width: 100%;
+        height: auto;
+        margin-top: -28rem;
+    }
+
+    .three h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .three .details{
+        grid-template-columns: repeat(4,1fr);
+        width: 100%;
+    }
+    .four h2{
+        font-size: 4rem;
+        margin-top: -30rem;
+        color: #a35693;
+    }
+
+    .four .collections img{
+        margin-left: -10rem;
+    }
+
+    .four p{
+        text-align: center;
+    }
+
+    .five img{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .five .info{
+        margin-top: -12%;
+        border: none;
+        display: grid;
+        grid-template-columns: 70% auto;
+    }
+
+    .five .info .left{
+        align-self: center;
+    }
+
+    .five .info .left h2{
+        font-size: 2rem;
+        color: black;
+    }
+
+    .five .info .left h4{
+        font-size: 1.1rem;
+        color: black;
+    }
+
+    .five .info .right img {
+        height: 18rem;
+        width: 18rem;  
+    }
+
+    footer img{
+        height: 25rem;
+    }
+
+    footer .features .feature img{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-left: -20rem;
+    }
+
+    footer .features .feature h1{
+        font-size: 3rem;
+        margin-left: 1rem;
+        margin-top: -4rem;
+    }
+
+    footer .features .feature ul img{
+        height: 3rem;
+        width: 3rem;
+        margin-top: 2rem;
+    }
+
+    footer .features .boxes .feature{
+        margin-top: -1.6rem;
+    }
+
+    footer .features .boxes .feature ul li h1{
+        font-size: 1.8rem;
+    }
+
+    footer .features .boxes .feature .input input{
+        width: 100%;
+        padding: 3rem;
+    }
+
+    footer .features .boxes .feature .button{
+        width: 30%;
+        font-size: 1.3rem;
+    }
+
+}
