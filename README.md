@@ -6,7 +6,7 @@ This is a simple, responsive clone of the classic **Google homepage**, built usi
 
 ## 📸 **Demo**
 
-![image](image-1.png)![Screenshot](assets/screenshot.png) <!-- Replace with an actual screenshot of your project -->
+![image](image-1.png)
 
 ---
 
