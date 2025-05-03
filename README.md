@@ -36,7 +36,7 @@ google-homepage/
 
 ## 🔗 **Live Demo**  
 **Check out the live project here:**  
-[Google Homepage Clone](https://ushasreebayya.github.io/google-homepage/)
+[Google Homepage Clone]( https://ushasree-bayya.github.io/Google-Home-Page/)
 
 ---
 
